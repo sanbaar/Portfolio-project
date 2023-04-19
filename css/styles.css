@@ -1,3 +1,42 @@
-body {
-  background: blue;
+:root {
+  --background-primary-color: #6c63ff;
+  --h1-font-family: "Playfair Display", serif;
+  --other-font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-family: var(--h1-font-family);
+  font-weight: bold;
+  font-size: 96px;
+}
+
+h2 {
+  font-family: var(--other-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  color: #272142;
+  line-height: 2;
+}
+
+h3 {
+  font-family: var(--other-font-family);
+  font-weight: bold;
+  font-size: 36px;
+  color: #272142;
+}
+
+.intro {
+  background-color: #f9f7fe;
+  text-align: center;
+  padding: 276px 0;
+}
+
+.intro-button {
+  background-color: var(--background-primary-color);
+  padding: 18px 30px;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  font-family: var(--other-font-family);
+  line-height: 27px;
 }
