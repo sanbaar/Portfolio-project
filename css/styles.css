@@ -8,6 +8,7 @@ h1 {
   font-family: var(--h1-font-family);
   font-weight: bold;
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h4 {
@@ -27,13 +28,15 @@ h3 {
 
 h2 {
   font-size: 62px;
-  font-family: var(--other-font-family);
+  font-family: var(--h1-font-family);
 }
 
 p {
   font-family: var(--other-font-family);
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 2;
+  color: #272142;
+  opacity: 70%;
 }
 
 .intro {
@@ -60,4 +63,25 @@ p {
   font-size: 18px;
   font-family: var(--other-font-family);
   line-height: 27px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .intro {
+    background-color: #f9f7fe;
+    text-align: center;
+    padding: 80px 0;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
