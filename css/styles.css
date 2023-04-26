@@ -92,6 +92,20 @@ p {
   line-height: 27px;
 }
 
+.yoga-app-content {
+  padding: 30px 0 0 20px;
+}
+
+.weather-app-content {
+  display: block;
+  text-align: right;
+  padding: 80px 20px 0 0;
+}
+
+.world-clock-app-content {
+  padding: 40px 0 0 20px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 60px;
