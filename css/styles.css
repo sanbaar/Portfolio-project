@@ -66,6 +66,40 @@ p {
   margin: 30px;
 }
 
+.contact-links {
+  padding: 20px 0;
+}
+
+.contact-section {
+  background-color: #f9f7fe;
+  border-radius: 4px;
+  margin: 30px 110px;
+  padding: 30px 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+}
+
+.contact-section a {
+  text-decoration: none;
+  color: #272142;
+  font-size: 22px;
+  font-family: var(--other-font-family);
+  opacity: 70%;
+}
+
+.contact-section h2 {
+  font-family: var(--h1-font-family);
+  font-size: 48px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.contact-section h5 {
+  font-family: var(--other-font-family);
+  font-size: 22px;
+  font-weight: bold;
+}
+
 .intro {
   background-color: #f9f7fe;
   text-align: center;
