@@ -81,10 +81,6 @@ p {
 
 .contact-section a {
   text-decoration: none;
-  color: #272142;
-  font-size: 22px;
-  font-family: var(--other-font-family);
-  opacity: 70%;
 }
 
 .contact-section h2 {
@@ -94,10 +90,9 @@ p {
   padding: 10px 0;
 }
 
-.contact-section h5 {
-  font-family: var(--other-font-family);
-  font-size: 22px;
-  font-weight: bold;
+.icon-contact {
+  font-size: 40px;
+  color: var(--background-primary-color);
 }
 
 .intro {
