@@ -90,6 +90,10 @@ p {
   padding: 10px 0;
 }
 
+.footer {
+  font-family: var(--other-font-family);
+}
+
 .icon-contact {
   font-size: 40px;
   color: var(--background-primary-color);
@@ -145,14 +149,31 @@ p {
   }
 
   .about-section {
-    padding: 0;
+    padding: 40px 0px;
     text-align: center;
+  }
+
+  .contact-section {
+    margin: 10px;
+    padding: 20px 10px;
+  }
+
+  .contact-section h2 {
+    font-size: 35px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+
+  .icon-contact {
+    font-size: 35px;
   }
 
   .intro {
     background-color: #f9f7fe;
     text-align: center;
-    padding: 80px 0;
+    padding: 120px 10px;
   }
 
   .project-description {
